@@ -1,0 +1,21 @@
+//this code help us measure the products that are Added to Cart. Fire this code when the prroduct is added to cart
+
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  'event': 'addToCart',
+  'ecommerce': {
+    'add': {                                               
+     'products': [{                           
+        'name': 'Microsoft Office 2019 Home and Student for Windows',
+        'id': 'office2019hs',
+        'price': 98.99,
+        'brand': 'Microsoft',
+        'category': 'Microsoft Office',
+        'quantity': 1 
+
+       }]
+    }
+  }
+});
+</script>
