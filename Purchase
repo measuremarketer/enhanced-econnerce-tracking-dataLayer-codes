@@ -1,0 +1,38 @@
+//this code help us measure the Transaction details (id, revenue etc) and products that are Purchased, quantities
+
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  'event': 'transaction',
+  'ecommerce': {
+    'purchase': {
+      'actionField': {
+        'id': '2015avg1yr1pc',     
+        'revenue': '122.97',           
+        'tax':'12',
+        'shipping': '',
+        'coupon': 'BACKTOSCHOOL' //needs to be filled if coupon is used on the entire order
+      },
+      'products': [{                   
+        'name': 'Avg Antivirus 2015 - 1year / 1pc',     
+        'id': 'office2019hs',
+        'price': 11.99,
+        'brand': 'AVG',
+        'category': 'Antivirus',
+        'quantity': 2,
+        'coupon': 'AntiVirusAB211'  //needs to be filled if coupon is used on a single product
+                          
+       },
+       {
+        'name': 'Avg Antivirus 2015 - 1year / 1pc',   
+        'id': '2015avg1yr1pc',
+        'price': 11.99,
+        'brand': 'AVG',
+        'Category': 'Antivirus',
+        'quantity': 2,
+        'coupon': ''  
+       }]
+    }
+  }
+});
+</script>
