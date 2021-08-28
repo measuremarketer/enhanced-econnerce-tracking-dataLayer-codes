@@ -1,0 +1,21 @@
+//this code help us measure the products that were viewed by visiting the product detail page. This code should fire on PDP pages
+
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  'event': 'productView',
+  'ecommerce': {
+    'detail': {
+      'products': [{
+        'name': 'Microsoft Office 2019 Home and Student for Windows',  
+        'id': 'office2019hs',
+        'price': 98.99,
+        'brand': 'Microsoft',
+        'Category': 'Microsoft Office'
+        
+        
+       }]
+     }
+   }
+});
+</script>
