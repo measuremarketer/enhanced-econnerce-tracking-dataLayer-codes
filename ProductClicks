@@ -1,0 +1,21 @@
+//this code help us measure the products that receive Clicks. This needs to fire when user click on the product
+
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+    'event': 'productClick',
+    'ecommerce': {
+      'click': {
+        'actionField': {'list': 'Home & Student'},      
+        'products': [{
+         'name': 'Microsoft Office 2019 Home and Student for Windows',
+         'id': 'office2019hs',
+         'price': 98.99,
+         'brand': 'Microsoft',
+         'category': 'Microsoft Office',
+         'position': 1         
+         }]
+       }
+     }
+});
+</script>
