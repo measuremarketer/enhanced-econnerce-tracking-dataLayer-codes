@@ -1,0 +1,21 @@
+//this code help us measure the products that are Removed to Cart
+
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  'event': 'RemoveFromCart',
+  'ecommerce': {
+    'remove': {                                               
+     'products': [{                           
+        'name': 'Microsoft Office 2019 Home and Student for Windows',
+        'id': 'office2019hs',
+        'price': 98.99,
+        'brand': 'Microsoft',
+        'category': 'Microsoft Office',
+        'quantity': 1 
+
+       }]
+    }
+  }
+});
+</script>
