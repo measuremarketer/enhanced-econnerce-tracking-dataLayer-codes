@@ -1,0 +1,29 @@
+//this code help us measure the products that receive Impressions. It needs to fire on category pages
+
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  'event': 'productImpressions',
+  'ecommerce': {
+    'impressions': [
+     {
+        'name': 'Microsoft Office 2016 Home & Student 2016 Pc Download',  
+        'id': 'office2016hs',
+        'price': 99,
+        'brand': 'Microsoft',
+        'category': 'Microsoft Office',
+        'list': 'Home & Student',
+        'position': 2       
+     },
+     {
+        'name': 'Microsoft Office 2016 Home & Student 2016 Pc Download',  
+        'id': 'office2016hs',
+        'price': 99,
+        'brand': 'Microsoft',
+        'category': 'Microsoft Office',
+        'list': 'Home & Student',
+        'position': 2       
+     }]
+  }
+});
+</script>
