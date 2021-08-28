@@ -1,0 +1,14 @@
+//this code help us measure the products that were in the checkout steps.
+//if you have multiple steps like checkout (Step 1), Add Shipping Info (Step 2), Add Payment Info (Step 3)
+
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+    'event': 'checkoutStep',
+    'ecommerce': {
+      'checkout': {
+        'actionField': {'step': 1 }
+     }
+   }
+  });
+</script>
