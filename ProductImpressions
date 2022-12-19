@@ -24,6 +24,6 @@ window.dataLayer.push({
         'list': 'Home & Student',
         'position': 2       
      }]
-  }
+   }
 });
 </script>
