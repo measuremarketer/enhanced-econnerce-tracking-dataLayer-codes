@@ -13,9 +13,9 @@ window.dataLayer.push({
          'price': 98.99,
          'brand': 'Microsoft',
          'category': 'Microsoft Office',
-         'position': 1         
-         }]
-       }
-     }
-});
+         'position': 1       
+        }]
+      }
+    }
+ });
 </script>
