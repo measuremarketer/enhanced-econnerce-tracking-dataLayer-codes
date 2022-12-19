@@ -13,9 +13,8 @@ window.dataLayer.push({
         'brand': 'Microsoft',
         'category': 'Microsoft Office',
         'quantity': 1 
-
        }]
-    }
-  }
-});
+     }
+   }
+ });
 </script>
