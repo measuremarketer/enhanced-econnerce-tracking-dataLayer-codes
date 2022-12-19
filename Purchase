@@ -7,8 +7,8 @@ window.dataLayer.push({
   'ecommerce': {
     'purchase': {
       'actionField': {
-        'id': '2015avg1yr1pc',     
-        'revenue': '122.97',           
+        'id': '2015avg1yr1pc',   //replace the transaction_id here  
+        'revenue': '122.97',    //replace the revenue here           
         'tax':'12',
         'shipping': '',
         'coupon': 'BACKTOSCHOOL' //needs to be filled if coupon is used on the entire order
@@ -20,8 +20,7 @@ window.dataLayer.push({
         'brand': 'AVG',
         'category': 'Antivirus',
         'quantity': 2,
-        'coupon': 'AntiVirusAB211'  //needs to be filled if coupon is used on a single product
-                          
+        'coupon': 'AntiVirusAB211'  //needs to be filled if coupon is used on a single product                
        },
        {
         'name': 'Avg Antivirus 2015 - 1year / 1pc',   
