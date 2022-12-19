@@ -8,6 +8,25 @@ window.dataLayer.push({
     'ecommerce': {
       'checkout': {
         'actionField': {'step': 1 }
+        //Product Array is OPTIONAL Here
+        'products': [{                   
+        'name': 'Happy Ninja',     
+        'id': '8773',
+        'price': 11.99,
+        'brand': 'Demobrand',
+        'category': 'T-Shirt',
+        'quantity': 2,
+        'coupon': 'HappyT2122'  //needs to be filled if coupon is used on a single product                
+       },
+       {
+        'name': 'Grumpy Ninja',   
+        'id': '2873',
+        'price': 11.99,
+        'brand': 'Demobrand',
+        'category': 'T-Shirt',
+        'quantity': 2,
+        'coupon': ''  
+       }]
      }
    }
   });
